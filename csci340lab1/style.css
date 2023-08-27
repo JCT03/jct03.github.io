@@ -28,3 +28,8 @@ header {
 header ul {
     list-style-type: none;
 }
+#video {
+    padding-top: 4.5em;
+    padding-left: 0;
+    padding-right: 0;
+}
