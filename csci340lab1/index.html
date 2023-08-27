@@ -3,31 +3,45 @@
 <html>
 <head>
     <title>United Flag Fliers</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
-<header class="container" fixed-top>
-    <div class ="row">
-        <h1 class="col-sm-12">United Flag Fliers</h1>
-    </div>
-    <div class ="row">
-        <nav class="navbar navbar-expand-sm bg-dark">
-            <div class="container-fluid">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#aboutus">About Us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+
+<body data-bs-spy="scroll" data-bs-target="topbar" data-bs-offset="0" tabindex="0">
+<header> 
+    <nav id="topbar" class="navbar navbar-expand-sm bg-dark">
+        <a class = "navbar-brand" href="#">United Flag Fliers</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#flags">Flags</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#winds">Winds</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#hobbyists">Hobbyists</a>
+            </li>
+        </ul>
+    </nav>
 </header>
-<div id="aboutus" class="container">
+
+<div id="flags" class="container">
     <div class ="row">
-        <h2 class="col-sm-12">About Us</h2>
+        <h2 class="col-sm-12">Flags</h2>
     </div>
 </div>
+<div id="winds" class="container">
+    <div class ="row">
+        <h2 class="col-sm-12">Winds</h2>
+    </div>
+</div>
+<div id="hobbyists" class="container">
+    <div class ="row">
+        <h2 class="col-sm-12">Hobbyists</h2>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

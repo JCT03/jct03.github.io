@@ -1,0 +1,30 @@
+
+body {
+    background-color: #F9EBE0;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header {
+    position:fixed;
+    width:100%;
+}
+.navbar {
+    background: #22181C;
+}
+.navbar .nav-link.active {
+    background-color: #F40000;
+  }
+.navbar .navbar-brand {
+    font-size: 2em;
+    color: #F40000;
+    padding-left:.5em;
+    padding-right:.5em;
+}
+.navbar .nav-link {
+    color:#F9EBE0;
+}
+header ul {
+    list-style-type: none;
+}
