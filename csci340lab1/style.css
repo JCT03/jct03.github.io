@@ -38,7 +38,7 @@ body h1 {
     color: #3C91E6;
     text-align: center;
 }
-body p {
+body h6 {
     color: #3C91E6;
     text-align: center;
 }
@@ -55,5 +55,8 @@ body p {
     border-width: 2em;
     padding: 0;
     background-color: white;
-
+}
+body p {
+    color: #F40000;
+    text-align: justify;
 }
