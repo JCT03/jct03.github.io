@@ -5,10 +5,12 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    z-index: -1;
 }
 header {
     position:fixed;
     width:100%;
+    z-index: 1;
 }
 .navbar {
     background: #22181C;
@@ -30,6 +32,28 @@ header ul {
 }
 #video {
     padding-top: 4.5em;
-    padding-left: 0;
-    padding-right: 0;
+}
+body h1 {
+    padding-top: 2em;
+    color: #3C91E6;
+    text-align: center;
+}
+body p {
+    color: #3C91E6;
+    text-align: center;
+}
+#countrySlideshow .carousel-item img{
+    object-fit: cover; /*https://raybo.org/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/*/
+    margin:auto;
+    height: 75vh;
+    overflow: hidden;
+    padding:0;
+}
+#countrySlideshow {
+    border-style: solid;
+    border-color: #FBB13C;
+    border-width: 2em;
+    padding: 0;
+    background-color: white;
+
 }
