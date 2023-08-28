@@ -65,7 +65,13 @@ body p {
     color: #F40000;
     text-align: justify;
 }
-body h4 {
+body h2 {
     color: #FBB13C;
     text-align: center;
+}
+#hobbyists img {
+    border-style: solid;
+    border-width: 1em;
+    border-color:#FBB13C;
+    margin: 1em;
 }
