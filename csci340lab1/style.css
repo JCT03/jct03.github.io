@@ -31,6 +31,10 @@ header ul {
     list-style-type: none;
 }
 #video {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    border-style: none;
     padding-top: 4.5em;
 }
 body h1 {
