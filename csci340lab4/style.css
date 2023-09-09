@@ -1,0 +1,12 @@
+#weatherbox {
+    margin: 0 px;
+    padding: 1em;
+    background-color: lightblue;
+}
+#weatherImage {
+    width: 100%;
+    height: 8em;
+}
+#report {
+    padding:0.5em
+}
