@@ -8,7 +8,6 @@ $(document).ready(function() {
     url: "https://api.open-meteo.com/v1/forecast?latitude=35.0995&longitude=-92.4407&daily=temperature_2m_max,temperature_2m_min,weathercode&temperature_unit=fahrenheit&windspeed_unit=mph&precipitation_unit=inch&timezone=America%2FChicago&forecast_days=1",
     success: function(results) {
         var date = "";
-        console.log(results["daily"]["time"]);
         month = String(results["daily"]["time"]).substring(5,7);
         if (month == "01") {
             date += "January";
