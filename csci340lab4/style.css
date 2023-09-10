@@ -38,8 +38,11 @@ body {
 h2 {
     color: #746C9E;
 }
-h5 {
+h6 {
     color: #6076AB;
+}
+p {
+    color:#746C9E;
 }
 input {
     background-color: #87CCC5;
