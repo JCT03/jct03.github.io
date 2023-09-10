@@ -186,7 +186,7 @@ $(document).ready(function() {
     });
     $.ajax({
         dataType: "json",
-        url: "http://www.boredapi.com/api/activity/",
+        url: "https://www.boredapi.com/api/activity/",
         success: function(results) {
             activity = results["activity"];
         },
