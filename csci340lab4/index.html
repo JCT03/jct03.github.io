@@ -8,8 +8,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class = "container-fluid" id = "weatherbox">
-        <div class="row">
+    <div class = "container-fluid" >
+        <div class="row" id = "weatherbox">
             <div class="col-sm-8">
                 <h1 id="date">Date</h1> 
                 <h5 id = "report">Weather Report</h5> 
@@ -18,7 +18,31 @@
                 <img id = "weatherImage" src="" alt="Weather Photo">
             </div>
         </div>
-      </div>
+    </div>
+    <div class = "container">
+        <div class="row">
+            <div class ="col-sm-12">
+                <div class="text-center">
+                    <input id="button1" type="button" value="Joke"></input>
+                    <input id="button2" type="button" value="Activity"></input>
+                    <input id="button3" type="button" value="Fact"></input>
+                    <input id="button4" type="button" value="Advice"></input>
+                  </div>
+            </div>
+            <div class="row">
+                <div class = col-sm-12 id="contentBox">
+                    <h2 id="sectionHeader">Header</h2>
+                    <h5 id="sectionContent">text</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class = col-sm-12 id="dogBox">
+                    <h2>Dog of the Day!</h2>
+                    <img id = "dogImage" src="" alt="Dog Photo">
+                </div>
+            </div>
+        </div>
+    </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="script.js"></script>

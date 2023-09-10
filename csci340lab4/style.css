@@ -1,12 +1,50 @@
+body {
+    background-color: #E6CBA6;
+}
 #weatherbox {
     margin: 0 px;
     padding: 1em;
-    background-color: lightblue;
+    background-color: #6076AB;
+    color: #87CCC5;
 }
 #weatherImage {
     width: 100%;
     height: 8em;
 }
+#dogImage {
+    width: 50%;
+}
+#date {
+    padding-top: 0.25em;
+}
 #report {
-    padding:0.5em
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+} 
+#contentBox {
+    border-style: solid;
+    border-color: #87CCC5;
+    border-width: 1em;
+    text-align: center;
+}
+#dogBox {
+    border-style: solid;
+    border-color: #87CCC5;
+    border-width: 1em;
+    text-align: center;
+    margin-top: 1em;
+}
+h2 {
+    color: #746C9E;
+}
+h5 {
+    color: #6076AB;
+}
+input {
+    background-color: #87CCC5;
+    color:#746C9E;
+    margin: .25em;
+    margin-bottom: .5em;
+    margin-top: 1em;
+    padding: .2em;
 }

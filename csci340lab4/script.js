@@ -1,3 +1,7 @@
+var joke = "No joke today :("
+var activity = "No activity today :("
+var advice = "No advice today :("
+var fact = "No fact today :("
 $(document).ready(function() {
     $.ajax({
     dataType: "json",
@@ -166,6 +170,75 @@ $(document).ready(function() {
     },
     error: function(xhr,status,error) {
         console.log(error);
+    }
+    });
+    $.ajax({
+        dataType: "json",
+        url: "https://icanhazdadjoke.com/",
+        success: function(results) {
+            $('#sectionHeader').text("Joke of the Day");
+            $('#sectionContent').text(results["joke"]);
+            joke = results["joke"];
+        },
+        error: function(xhr,status,error) {
+            console.log(error);
         }
+    });
+    $.ajax({
+        dataType: "json",
+        url: "http://www.boredapi.com/api/activity/",
+        success: function(results) {
+            activity = results["activity"];
+        },
+        error: function(xhr,status,error) {
+            console.log(error);
+        }
+    });
+    $.ajax({
+        dataType: "json",
+        url: "https://uselessfacts.jsph.pl/api/v2/facts/today",
+        success: function(results) {
+            fact = results["text"];
+            
+        },
+        error: function(xhr,status,error) {
+            console.log(error);
+        }
+    });
+    $.ajax({
+        dataType: "json",
+        url: "https://api.adviceslip.com/advice",
+        success: function(results) {
+            advice = results["slip"]["advice"];
+        },
+        error: function(xhr,status,error) {
+            console.log(error);
+        }
+    });
+    $.ajax({
+        dataType: "json",
+        url: "https://random.dog/woof.json",
+        success: function(results) {
+            $('#dogImage').attr("src",results["url"])
+        },
+        error: function(xhr,status,error) {
+            console.log(error);
+        }
+    });
+    $('#button1').click(function() {
+        $('#sectionHeader').text("Joke of the Day");
+        $('#sectionContent').text(joke);
+    });
+    $('#button2').click(function() {
+        $('#sectionHeader').text("Activity of the Day");
+        $('#sectionContent').text(activity);
+    });
+    $('#button3').click(function() {
+        $('#sectionHeader').text("Fact of the Day");
+        $('#sectionContent').text(fact);
+    });
+    $('#button4').click(function() {
+        $('#sectionHeader').text("Advice of the Day");
+        $('#sectionContent').text(advice);
     });
 });
