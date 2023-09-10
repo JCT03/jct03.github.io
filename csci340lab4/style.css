@@ -1,5 +1,7 @@
 body {
     background-color: #E6CBA6;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 #weatherbox {
     margin: 0 px;
@@ -38,7 +40,7 @@ body {
 h2 {
     color: #746C9E;
 }
-h6 {
+h5 {
     color: #6076AB;
 }
 p {
