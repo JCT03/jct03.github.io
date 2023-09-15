@@ -1,5 +1,5 @@
 title: My Awesome Blog
-description: This is my awesome blog with a very detailed, specific description. 
+description: This is my awesome blog with a very detailed, specific description.
 
 url: https://long-haul.netlify.app
 paginate_path: "blog/page:num/"
@@ -23,6 +23,6 @@ navigation:
       url: /about
 
 social:
-    linkedin: jacob-collier-tenison
     github: jct03
     email: colliertenisonjt@hendrix.edu
+    linkedin: jacob-collier-tenison
